@@ -1,317 +1,128 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pinaca Translation</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>
-  window.intercomSettings = {
-    app_id: "io8dz9ds"
-  };
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script>
-// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/io8dz9ds'
-(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/io8dz9ds';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196099660-1">
- </script>
- <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<title>Saptang Labs</title>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-  gtag('config', 'UA-196099660-1');
- </script>
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
+[class*="col-"] {
+  float: left;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  overflow: visible;
+}
+
+.header {
+  background-color: black;
+  color: #ffffff;
+  padding: 15px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.footer {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 30%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 30%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
 </head>
-<body>
+<body  style= "background-color: black;">
 
+<div class="header">
+ <img src="https://raw.githubusercontent.com/Saptang-Labs/saptang-labs.github.io/main/logo.png" alt="Sa">
+</div>
+<div class="row">
 
+  <div class="col-4 col-s-4" style="padding: 10px;">
+    <p class= "normal" style="color: #fff; text-align: center; font-size: 30px; font-weight: bold;">Careers</p>
+    <p style="color: #fff; text-align: left;font-size:16px; line-height: 25px; text-align: center;">We are always looking for team players with good fundamentals and strong interest in building usable products with positive impact.</p>
+    <p style="color: #fff; text-align: left;font-size:16px; text-align: center"> If you think, you meet the criteria, please reach out to <a href = "mailto: tushar@saptanglabs.com" style="color: white;">tushar@saptanglabs.com</a> with your resume.</p>
+  </div>
+  <div class="col-4 col-s-4" style="padding: 10px;">
+    <p class= "normal" style="color: #fff; text-align: center; font-size: 30px;font-weight: bold;">Sales</p>
+    <p style="color: #fff; text-align: left;font-size:16px; line-height: 25px; text-align: center"> If you are interested in securing your network from the cyber threats and try out our innovative products, please reach out to us at <a href = "mailto: sales@saptanglabs.com" style="color: white;">sales@saptanglabs.com</a>. We will get in touch with you.</p>
+  </div>
+  <div class="col-4 col-s-4" style="padding:10px;">
+    <p class= "normal" style="color: #fff; text-align: center; font-size: 30px; font-weight: bold;">Founding Team</p>
+    <p style="color: #fff; text-align: center;font-size:16px;"> <a href="https://www.linkedin.com/in/saikrishna-budamgunta-8633b1201/" style="color: white; text-decoration: none;"><i class="fa fa-linkedin" style="font-size:25px;color:white;"></i>&nbsp;
+      Saikrishna BVS</a></p>
+    <p style="color: #fff; text-align: center;font-size:16px;"> <a href="https://www.linkedin.com/in/tushar-mendiratta-3732a71b8/"style="color: white; text-decoration: none;"><i class="fa fa-linkedin" style="font-size:25px;color:white;"></i> &nbsp; Tushar Mendiratta</a></p>
+  </div>
 
-  <style>
+  <!-- <div class="col-3 col-s-12"> -->
 
-    #footer {
-       position:absolute;
-       bottom:0;
-       width:100%;
-       height:22px;   /* Height of the footer */
-       background:#F4AD21;
-       text-align: center;
-    }
-    
-      #resultJSON:empty {display: none}
-      #result_area:empty {display: none}
-      #result_area{
-        color: black;
-        background-color: #f5f5f5;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        width: 100%;
-      }
-    
-      .btn-primary{
-        color: #9B0A1B !important;
-        background-color: #F4AD21 !important;
-      }
-    
-      .btn-primary:hover{
-        background-color: #F4AD21 !important;
-      }
-    
-      #loader {
-        z-index:1000;
-        border: 5px solid #f3f3f3;
-        border-radius: 50%;
-        border-top: 5px solid #1e93e0;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        -webkit-animation: spin 1s linear infinite;
-        /* Safari */
-        animation: spin 1s linear infinite;
-      }
-    
-      /* Safari */
-    
-      @-webkit-keyframes spin {
-        0% {
-          -webkit-transform: rotate(0deg);
-        }
-        100% {
-          -webkit-transform: rotate(360deg);
-        }
-      }
-    
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-    </style>
-    
-    
-    <script>
-      function parseQuery(e) {
-        text_query = $('#queryInput').val();
-        var dropdown_val = $('#menu1').val();
-    
-        // if(dropdown_val == "" || (/[a-zA-Z]/.test(text_query) == false)){
-        //   $(".errorlist").css("display","block");
-        //   $('#loader').hide();
-        //   setTimeout(fade_out, 2000);
-        //     function fade_out() {
-        //     $(".errorlist").fadeOut();
-        //   }
-        //   return;
-        // }
+  <!-- <div class="col-3 col-s-12"> -->
 
-        if(dropdown_val == "" || text_query == "" || text_query == " "){
-          $(".errorlist").css("display","block");
-          $('#loader').hide();
-          setTimeout(fade_out, 2000);
-            function fade_out() {
-            $(".errorlist").fadeOut();
-          }
-          return;
-        }
-    
-        query = text_query.split("~")
-        $('#loader').show();
-    
-        let payload = {
-          data: query,
-        };
-        const headers = {
-          'Content-Type': 'application/json',
-        }
-        if(dropdown_val == "English - Telugu"){
-            url = 'https://translation-api.pinacalabs.com/en_te/async'
-            res_url = 'https://translation-api.pinacalabs.com/en_te/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        else if(dropdown_val == "English - Tamil"){
-            url = 'https://translation-api.pinacalabs.com/en_ta/async'
-            res_url = 'https://translation-api.pinacalabs.com/en_ta/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        // else if(dropdown_val == "English - Malayalam"){
-        //     url = 'https://translation-api.pinacalabs.com/en_ml/async'
-        //     res_url = 'https://translation-api.pinacalabs.com/en_ml/result'
-        //     dropdown_change_call(url, payload, headers, res_url);
-        // }
-        // else if(dropdown_val == "English - Kannada"){
-        //     url = 'https://translation-api.pinacalabs.com/en_kn/async'
-        //     res_url = 'https://translation-api.pinacalabs.com/en_kn/result'
-        //     dropdown_change_call(url, payload, headers, res_url);
-        // }
-        // else if(dropdown_val == "English - Marathi"){
-        //     url = 'https://translation-api.pinacalabs.com/en_mr/async'
-        //     res_url = 'https://translation-api.pinacalabs.com/en_mr/result'
-        //     dropdown_change_call(url, payload, headers, res_url);
-        // }
-        else if(dropdown_val == "English - Hindi"){
-            url = 'https://translation-api.pinacalabs.com/en_hi/async'
-            res_url = 'https://translation-api.pinacalabs.com/en_hi/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        else if(dropdown_val == "English - Bengali"){
-            url = 'https://translation-api.pinacalabs.com/en_bn/async'
-            res_url = 'https://translation-api.pinacalabs.com/en_bn/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        else if(dropdown_val == "English - Punjabi"){
-            url = 'https://translation-api.pinacalabs.com/en_pa/async'
-            res_url = 'https://translation-api.pinacalabs.com/en_pa/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        // else if(dropdown_val == "English - Gujarati"){
-        //     url = 'https://translation-api.pinacalabs.com/en_gu/async'
-        //     res_url = 'https://translation-api.pinacalabs.com/en_gu/result'
-        //     dropdown_change_call(url, payload, headers, res_url);
-        // }
-        else if(dropdown_val == "Chinese - English"){
-            url = 'https://translation-api.pinacalabs.com/cn_en/async'
-            res_url = 'https://translation-api.pinacalabs.com/cn_en/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        else if(dropdown_val == "Tamil - English"){
-            url = 'https://translation-api.pinacalabs.com/ta_en/async'
-            res_url = 'https://translation-api.pinacalabs.com/ta_en/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-        else if(dropdown_val == "Sinhala - English"){
-            url = 'https://translation-api.pinacalabs.com/si_en/async'
-            res_url = 'https://translation-api.pinacalabs.com/si_en/result'
-            dropdown_change_call(url, payload, headers, res_url);
-        }
-      }
-    
-      function dropdown_change_call(url, payload, header, res_url){
-        axios.post(url, payload,{headers: header})
-        .then((response) => {
-            if (response.data) {
-                let res_payload = {
-                unique_id: response.data.unique_id
-                };
-                result_call(res_payload, header, res_url)
-            }
-        })
-      .catch((err) => {
-        $('#loader').hide();
-      })
-    }
-    
-      function result_call(payload, head, res_url){
-      var inter = setInterval(()=>{
-        axios.post(res_url, payload,{headers: head})
-        .then((response) => {
-          if (response.data.success) {
-            processResponse(response.data.prediction)
-            clearInterval(inter);
-          }
-        })
-      },4000)
-      }
-        function processResponse(data) {
-          var resd = JSON.stringify(data, undefined, 2);
-          if(resd != undefined){
-            var tes = JSON.parse(resd);
-            $('#loader').hide();
-            $("#translation_head").css("display","block");
-            $('#result_area').html(tes[0]);
-            $("#copy_text").css("display","block");
-          }
-          
-        }
-    
-      function myFunction() {
-        var copyText = document.getElementById("result_area");
-        copyText.select();
-        // copyText.setSelectionRange(0, 9999999)
-        document.execCommand("copy"); 
-    }
-    
-        window.onload = function() {
-            $('#loader').hide();
-        };
-    
-        $(function(){
-          $(".dropdown-menu li a").click(function(){
-            $(".btn:first-child").text($(this).text());
-            $(".btn:first-child").val($(this).text());
-          });
-      });
-    
-      window.onload = function afterPageLoad(){
-        $('#loader').hide();
-        var textAreas = document.getElementsByTagName('textarea');
-    
-    Array.prototype.forEach.call(textAreas, function(elem) {
-        elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
-    });
-    
-      }
-    
-    </script>
-    
-    
-    <div style="width: 60%; text-align:center; position: absolute; left: 20%; top: 10%;">
-      <img style="height: auto; width: 50%;" src="https://raw.githubusercontent.com/Pinaca-Labs/translation/main/Pinaca_Lab_Final-01.png" id="img1" >
-      <h3 style="color: maroon;">Text to Text Language Translation Platform Demo</h3>
-        <div>
-          <h4 class="errorlist" style="display: none; color: red; text-align: center;">Please give input and select Language</h4>
-            <textarea style="top:20px" rows="6" type="textarea" class="form-control" id="queryInput" placeholder="1. Type/Paste your Text \n2.Choose Language to translate from below menu \n3.Click Translate"></textarea>
-            
-            <div id="dropDownDiv" class="dropdown" style="top:10px; position: relative; float: left;" >
-                <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Select Language
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Telugu</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Tamil</a></li>
-                  <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Malayalam</a></li> -->
-                  <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Kannada</a></li> -->
-                  <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Marathi</a></li> -->
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Hindi</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Bengali</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Punjabi</a></li>
-                  <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English - Gujarati</a></li> -->
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Chinese - English</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tamil - English</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sinhala - English</a></li>
-                </ul>
-    
-                <button class="btn btn-primary" type="button" onclick="parseQuery()">Translate</button>
-            </div>
-            
-            <div class="col-sm-12" style="top:30px; position: relative;"> 
-              <p id="trans_head" style="color: black; display: none;">Translated Text: </p>
-              <pre id='resultJSON'></pre> 
-              <textarea rows="6" id="result_area"></textarea>
-              <button id="copy_text" class="btn btn-primary" style="display: none;" onclick="myFunction()">Copy text</button>
-            </div>
-    
-            <div class="col-sm-12" style="top:30px; position: relative;"> 
-		    <p id="trans_head" style="color: black;"> If you desire to try our demo with a language not listed here, please reach out to us at <a href="mailto:sales@pinacalabs.com"">sales@pinacalabs.com</a>.<br> We support over 75 Languages around the world and will be happy to customise our solution for your needs. </p>
-            </div>
-        </div>
-   	 
-        <div style="top:1%; position: relative;" id="loader"></div>
-    
-    </div>
-    
-    <div id="footer">
-      <p>For Sales/Enquiries for SaaS API use or customised on-premises deployment of the solution please reach out to sales@pinacalabs.com</p>
-    </div>
-    </body>
-    </html> 
+  <!-- <div class="col-3 col-s-12"> -->
+    <!-- <div class> -->
+    <!-- </div> -->
+  <!-- </div> -->
+</div>
+
+<div class="footer">
+  <p>Follow us on <a href="https://www.linkedin.com/company/saptang-labs?trk=public_profile_topcard-current-company"style="color: white; text-decoration: none;"><i class="fa fa-linkedin" style="font-size:20px;color:white;"></i>&nbsp; Saptang Labs</a></p>
+</div>
+
+</body>
+</html>
